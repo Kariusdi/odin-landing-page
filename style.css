@@ -17,6 +17,7 @@ header nav {
     font-weight: bold;
     font-size: 24px;
     color: #F9FAF8;
+    width: 450px;
 }
 
 a {
@@ -27,9 +28,49 @@ a {
 
 ul {
     display: flex;
-    gap: 2rem;
 }
 
 li {
     list-style-type: none;
+}
+
+main {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px;
+}
+
+.head-text {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+}
+
+.topic {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.description {
+    font-size: 18px;
+    color: #E5E7E8;
+}
+
+.signup {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 10px;
+    width: 100px;
+    border: none;
+}
+
+.thumbnail {
+    height: 250px;
+    width: 500px;
 }
