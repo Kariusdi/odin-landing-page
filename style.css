@@ -91,7 +91,7 @@ li {
     flex-wrap: wrap;
     justify-content: center;
     gap: 2.5rem;
-    margin: 3rem auto;
+    margin: 6rem auto;
 }
 
 .info .info-box img {
@@ -103,4 +103,31 @@ li {
 .info-des {
     width: 200px;
     text-align: center;
+}
+
+article {
+    background: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    margin: 3rem auto;
+}
+
+article .container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+article .quote {
+    font-size: 26px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+article .person-name {
+    font-weight: bold;
+    align-self: flex-end;
 }
