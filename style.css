@@ -17,7 +17,7 @@ header nav {
     font-weight: bold;
     font-size: 24px;
     color: #F9FAF8;
-    width: 450px;
+    width: 370px;
 }
 
 a {
@@ -28,18 +28,20 @@ a {
 
 ul {
     display: flex;
+    gap: 2rem;
 }
 
 li {
     list-style-type: none;
 }
 
-main {
+.opening {
     background-color: #1F2937;
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 80px;
+    flex-wrap: wrap;
 }
 
 .head-text {
@@ -68,9 +70,37 @@ main {
     border-radius: 10px;
     width: 100px;
     border: none;
+    margin-bottom: 2rem;
 }
 
 .thumbnail {
     height: 250px;
     width: 500px;
+}
+
+.info-topic {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937; 
+    margin: 3rem auto;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2.5rem;
+    margin: 3rem auto;
+}
+
+.info .info-box img {
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.info-des {
+    width: 200px;
+    text-align: center;
 }
